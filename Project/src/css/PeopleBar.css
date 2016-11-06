@@ -1,0 +1,98 @@
+.disp-flex {
+    display: block;
+    align-items: center;
+}
+.CharBar-Anju {
+    background: #ff9847; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff9847 0%, #ff6d0a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff9847 0%,#ff6d0a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff9847 0%,#ff6d0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Shuka {
+    background: #49bbee; /* Old browsers */
+    background: -moz-linear-gradient(top, #49bbee 0%, #84d9f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #49bbee 0%,#84d9f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #49bbee 0%,#84d9f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Rikako {
+    background: #ff7777; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff7777 0%, #ffa9a9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff7777 0%,#ffa9a9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff7777 0%,#ffa9a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Aika {
+    background: #c3c3c3; /* Old browsers */
+    background: -moz-linear-gradient(top, #c3c3c3 0%, #dbdbdb 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #c3c3c3 0%,#dbdbdb 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #c3c3c3 0%,#dbdbdb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Kanako {
+    background: #e6ce0b; /* Old browsers */
+    background: -moz-linear-gradient(top, #e6ce0b 0%, #e5d027 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e6ce0b 0%,#e5d027 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e6ce0b 0%,#e5d027 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Ai {
+    background: #f273c4; /* Old browsers */
+    background: -moz-linear-gradient(top, #f273c4 0%, #faa4db 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f273c4 0%,#faa4db 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f273c4 0%,#faa4db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Arisa {
+    background: #ff4242; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff4242 0%, #ff8f8f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff4242 0%,#ff8f8f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff4242 0%,#ff8f8f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Nanaka {
+    background: #16d5a6; /* Old browsers */
+    background: -moz-linear-gradient(top, #16d5a6 0%, #7fe8d0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #16d5a6 0%,#7fe8d0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #16d5a6 0%,#7fe8d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.CharBar-Aina {
+    background: #c450ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #c450ff 0%, #d57dff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #c450ff 0%,#d57dff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #c450ff 0%,#d57dff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.CharBar-Portrait {
+    display: block;
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    padding: 10px;
+}
+.CharBar-Name {
+    text-align: center;
+    margin: auto 0;
+}
+.kanji-name {
+    font-size: 1.5em;
+}
+.romaji-name {
+    font-size: 1.2em;
+}
+.CharBar-Timer {
+    margin: auto 0;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .disp-flex {
+        display: block;
+    }
+    .CharBar-Name {
+        line-height: 100px;
+    }
+}
+@media (min-width: 992px) {
+    .disp-flex {
+        display: flex;
+    }
+    .CharBar-Name {
+        line-height: normal;
+    }
+}
